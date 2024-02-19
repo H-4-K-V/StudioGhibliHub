@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="output.css"/>
+    <script src="./app.js" defer></script>
     <title>SG - Home</title>
 </head>
 <body>
-    <div id="app">
+    <div class="max-w-5xl font-archivo px-4 py-8 m-auto" id="app">
+        <header class="border-b pb-2 mb-8">
+            <h1 class="font-bebasNeue text-5xl"><span>S</span>tudio <span>G</span>hibli</h1>
+            <p class="text-base">All works of art in one place</p>
+        </header>
         
+        <main>
+            <form class="flex items-center">
+                <input type="text" id="input-search" class="w-full h-12 border-l border-t border-b rounded-bl-sm rounded-tl-sm outline-none px-4"/>
+                <button class="border-t border-r border-b h-12 w-12 rounded-tr-sm rounded-br-sm"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div id="card-wrapper" class="flex flex-wrap">
+            </div>
+        </main>
     </div>
+
+
+    <script src="https://kit.fontawesome.com/9a04e53c5c.js" crossorigin="anonymous"></script>
 </body>
 </html>

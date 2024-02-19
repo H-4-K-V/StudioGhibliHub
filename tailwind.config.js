@@ -1,7 +1,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      archivo: ['Archivo', 'sans-serif'],
+      bebasNeue: ['Bebas Neue', 'sans-serif']
+    }
   },
   plugins: [],
 }
