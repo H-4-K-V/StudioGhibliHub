@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "lite-server"
+  },
+
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "tailwindcss": "^3.4.1"
+  }
+}
