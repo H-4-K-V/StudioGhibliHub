@@ -16,7 +16,6 @@
 
    ```bash
    # Run lite-server
-
    npm run dev
 
    # Build Tailwind CSS
