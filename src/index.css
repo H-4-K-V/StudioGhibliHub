@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&display=swap');
+@import 'tailwindcss';
+
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+@theme {
+  --font-bebas: 'Bebas Neue', cursive;
+}

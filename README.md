@@ -2,7 +2,6 @@
 
 <h6 align="center">GhibliStudioHub is a portal dedicated to the cinematic universe of the renowned Studio Ghibli. </br>Find and discover your favorite animations in one place.</h6>
 
-
 ![img](https://github.com/itsV1tor/StudioGhibliHub/assets/121408231/6b26f422-4d35-41e4-988b-9b6f84a9869f)
 
 </br>
@@ -20,20 +19,22 @@
 
    # Build Tailwind CSS
    npm run tailwind
+   ```
+
 5. Enjoy :)
-   
+
 </br>
 
 ## Technologies
 
-  - HTML
-  - Tailwind CSS
-  - JavaScript
-  - NodeJS
-  - Lite Server
-  - GSAP
+- React
+- Tailwind CSS
+- JavaScript
+- Vite
+- GSAP
 
 </br>
 
 ## Contributions
+
 Contributions are welcome! If you'd like to contribute, please open an issue or submit a pull request :)
