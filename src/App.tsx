@@ -6,11 +6,9 @@ export function App() {
   const [search, setSearch] = useState('');
 
   return (
-    <div className="w-dvw h-dvh bg-slate-100">
-      <div className="max-w-5xl px-4 py-8 m-auto ">
-        <Header onSearch={setSearch} />
-        <Main search={search} />
-      </div>
+    <div className="max-w-5xl px-4 py-8 m-auto ">
+      <Header onSearch={setSearch} />
+      <Main search={search} />
     </div>
   );
 }
