@@ -19,7 +19,7 @@ export function Main({ search }: MainProps) {
   }
 
   const filteredMovies = movies.filter(({ title }) =>
-    title.toLowerCase().includes(search.toLowerCase())
+    title.toLowerCase().includes(search)
   );
 
   return (
